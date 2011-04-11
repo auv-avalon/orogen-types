@@ -1,0 +1,14 @@
+<package>
+    <description brief="orocos support for the avalon base types">
+        The base package defines types that are generally used by avalon. 
+		This package wraps these types for use in other orogen projects.
+    </description>
+    <author>AUV10</author>
+    <copyright>
+    </copyright>
+    <license></license>
+
+    <depend package="avalon/types" />
+  	<depend package="orogen"/>
+  	<depend package="rtt"/>
+</package>
