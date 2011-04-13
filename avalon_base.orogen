@@ -10,7 +10,7 @@ import_types_from "avalon_base/control.h"
 
 typekit do
 
-	export_types
-		'/avalon/DOFSelection'
+	export_types '/avalon/DOFSelection',
+		'/motor_controller/PIDSettings'
 	
 end
