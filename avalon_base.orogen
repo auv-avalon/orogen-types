@@ -5,12 +5,11 @@ using_library 'avalon_base-types'
 
 # Common avalon types that are not opaques
 import_types_from "avalon_base/control.h"
-
-
+import_types_from "avalon_base/feature.h"
 
 typekit do
-
 	export_types '/avalon/DOFSelection',
-		'/avalon_motor_controller/PIDSettings'
+		'/avalon_motor_controller/PIDSettings',
+                '/avalon/feature/Buoy'
 	
 end
