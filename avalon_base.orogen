@@ -2,6 +2,7 @@ name "avalon_base"
 version "0.1"
 
 using_library 'avalon_base-types'
+import_types_from 'base'
 
 # Common avalon types that are not opaques
 import_types_from "avalon_base/control.h"
