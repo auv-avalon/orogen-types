@@ -8,6 +8,7 @@
     </copyright>
     <license></license>
 
+    <depend package="base/types" />
     <depend package="avalon/types" />
   	<depend package="orogen"/>
   	<depend package="rtt"/>
