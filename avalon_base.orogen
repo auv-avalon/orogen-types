@@ -7,10 +7,11 @@ import_types_from 'base'
 # Common avalon types that are not opaques
 import_types_from "avalon_base/control.h"
 import_types_from "avalon_base/feature.h"
-
+import_types_from "avalon_base/audio_data.h"
 typekit do
 	export_types '/avalon/DOFSelection',
 		'/avalon_motor_controller/PIDSettings',
-                '/avalon/feature/Buoy'
+                '/avalon/feature/Buoy',
+		'/avalon/audio_data'
 	
 end
