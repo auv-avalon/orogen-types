@@ -13,5 +13,6 @@ typekit do
 	export_types '/avalon/DOFSelection',
 		'/avalon_motor_controller/PIDSettings',
                 '/avalon/feature/Buoy',
-                '/avalon/AudioSamples'
+                '/avalon/AudioSamples',
+                '/avalon/PingerSamples'
 end
