@@ -12,4 +12,5 @@
     <depend package="avalon/types" />
   	<depend package="orogen"/>
   	<depend package="rtt"/>
+  <tags>stable</tags>
 </package>
