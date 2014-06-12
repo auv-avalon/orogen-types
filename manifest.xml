@@ -9,7 +9,7 @@
     <license></license>
 
     <depend package="base/types" />
-    <depend package="avalon/types" />
+    <depend package="auv_avalon/types" />
   	<depend package="orogen"/>
   	<depend package="rtt"/>
   <tags>stable</tags>
